@@ -1,6 +1,7 @@
 import Image from "next/image";
 
 export default function Home() {
+  console.log("hey is this in the client or the server");
   return (
     // <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
     //   <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
@@ -100,8 +101,248 @@ export default function Home() {
     //   </footer>
     // </div>
 
-    <>
-      <div className="text-5xl text-blue-700">صفحه ورود</div>
-    </>
+    <div className="px-[20px] md:px-[50px]  lg:px-[80px] xl:px-[130px] 2xl:px-[160px] mt-[120px]">
+      <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-2 mt-[50px]">
+        <div className="md:w-[50%] flex justify-center flex-col gap-2">
+          <p className="text-[#00A436] font-bold">
+            آژانس دیجیتال مارکتینگ راتین
+          </p>
+          <p className="text-[#153D8A]">کار را به کاردان بسپارید​</p>
+          <p className="text-[#5B6570]">
+            ما در آژانس راتین با تجربه نزدیک به دو دهه فعالیت، تنها یک وظیفه
+            برای خود متصور هستیم؛ اینکه خیال شما را از هر نوع خدمات در دایرهٔ
+            دیجیتال مارکتینگ راحت کنیم. راتین نقطهٔ اشتراک بین بازاریابی و
+            تبلیغات با تکنولوژی و هنر است، جایی که افزایش فروش شما را هدف خواهد
+            گرفت. ما از سال ۸۷ تا به امروز تمرین کرده‌ایم، تا مستقیم به هدف
+            بزنیم.
+          </p>
+          <div className="flex flex-col gap-4">
+            <input
+              placeholder="نام و نام خانوادگی خود را وارد نمایید"
+              className="pr-[15px] border-[#153D8A] block border-[2px] px-[5px] py-[8px] focus:outline-0 rounded-3xl"
+            />{" "}
+            <input
+              placeholder="شماره موبایل خود را وارد نمایید"
+              className="pr-[15px] border-[#153D8A] border-[2px] px-[5px] py-[8px] focus:outline-0 rounded-3xl"
+            />
+            <div className="py-[10px] flex justify-center items-center bg-[#153D8A] rounded-3xl">
+              <p className="text-white">شروع کنیم</p>
+            </div>
+          </div>
+        </div>
+        <div className="flex justify-end items-center">
+          <Image
+            className="dark:invert"
+            src="/images/header.png"
+            width={550}
+            height={406}
+            alt="banner"
+          />
+        </div>
+      </div>
+      <div className="mt-[100px] flex flex-wrap justify-center gap-[30px] items-center">
+        <div className="w-[90%] md:w-[65%] lg:w-[40%] xl:w-[28%] shadow-[0_0_6px_rgba(0,0,0,0.1)] p-[8px]">
+          <div className="flex justify-center">
+            <Image
+              src="/icons/coding.svg"
+              width={68}
+              height={68}
+              alt="coding"
+            />
+          </div>
+          <p>چرا با خیال راحت به آژانس دیجیتال مارکتینگ راتین اعتماد کنیم؟</p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla
+            diam in ac dictum a urna viverra morbi.
+          </p>
+        </div>
+        <div className="w-[90%] md:w-[65%] lg:w-[40%] xl:w-[28%] shadow-[0_0_6px_rgba(0,0,0,0.1)] p-[8px]">
+          <div className="flex justify-center">
+            <Image
+              src="/icons/coding.svg"
+              width={68}
+              height={68}
+              alt="coding"
+            />
+          </div>
+          <p>چرا با خیال راحت به آژانس دیجیتال مارکتینگ راتین اعتماد کنیم؟</p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla
+            diam in ac dictum a urna viverra morbi.
+          </p>
+        </div>
+        <div className="w-[90%] md:w-[65%] lg:w-[40%] xl:w-[28%] shadow-[0_0_6px_rgba(0,0,0,0.1)] p-[8px]">
+          <div className="flex justify-center">
+            <Image
+              src="/icons/coding.svg"
+              width={68}
+              height={68}
+              alt="coding"
+            />
+          </div>
+          <p>چرا با خیال راحت به آژانس دیجیتال مارکتینگ راتین اعتماد کنیم؟</p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla
+            diam in ac dictum a urna viverra morbi.
+          </p>
+        </div>{" "}
+        <div className="w-[90%] md:w-[65%] lg:w-[40%] xl:w-[28%] shadow-[0_0_6px_rgba(0,0,0,0.1)] p-[8px]">
+          <div className="flex justify-center">
+            <Image
+              src="/icons/coding.svg"
+              width={68}
+              height={68}
+              alt="coding"
+            />
+          </div>
+          <p>چرا با خیال راحت به آژانس دیجیتال مارکتینگ راتین اعتماد کنیم؟</p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla
+            diam in ac dictum a urna viverra morbi.
+          </p>
+        </div>
+        <div className="w-[90%] md:w-[65%] lg:w-[40%] xl:w-[28%] shadow-[0_0_6px_rgba(0,0,0,0.1)] p-[8px]">
+          <div className="flex justify-center">
+            <Image
+              src="/icons/coding.svg"
+              width={68}
+              height={68}
+              alt="coding"
+            />
+          </div>
+          <p>چرا با خیال راحت به آژانس دیجیتال مارکتینگ راتین اعتماد کنیم؟</p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla
+            diam in ac dictum a urna viverra morbi.
+          </p>
+        </div>
+        <div className="w-[90%] md:w-[65%] lg:w-[40%] xl:w-[28%] shadow-[0_0_6px_rgba(0,0,0,0.1)] p-[8px]">
+          <div className="flex justify-center">
+            <Image
+              src="/icons/coding.svg"
+              width={68}
+              height={68}
+              alt="coding"
+            />
+          </div>
+          <p>چرا با خیال راحت به آژانس دیجیتال مارکتینگ راتین اعتماد کنیم؟</p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla
+            diam in ac dictum a urna viverra morbi.
+          </p>
+        </div>
+        <div className="w-[90%] md:w-[65%] lg:w-[40%] xl:w-[28%] shadow-[0_0_6px_rgba(0,0,0,0.1)] p-[8px]">
+          <div className="flex justify-center">
+            <Image
+              src="/icons/coding.svg"
+              width={68}
+              height={68}
+              alt="coding"
+            />
+          </div>
+          <p>چرا با خیال راحت به آژانس دیجیتال مارکتینگ راتین اعتماد کنیم؟</p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla
+            diam in ac dictum a urna viverra morbi.
+          </p>
+        </div>
+      </div>
+      <div className="mt-[100px]">
+        <div className="flex justify-center items-center">
+          <p className="text-[#153D8A] text-2xl font-bold">
+            اینجا یک آژانس بازاریابی و تبلیغات دیجیتال است ولی با دو چهره
+          </p>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-[20px] justify-between mt-[25px]">
+          <div className="bg-[#153D8A] px-[25px] py-[30px] rounded-3xl">
+            <p className="text-white font-bold text-[30px]">چهره تکنولوژیک</p>
+            <div>
+              <ul className="list-disc text-white px-[50px] py-[25px]">
+                <li>سرویس تبلیغاتی دیجیتال علاقه محور</li>
+                <li>سرویس تبلیغاتی اپلیکیشن های موبایل</li>
+                <li>نرم افزار CRM تحت وب</li>
+                <li>پیاده سازی سرویس های تحت وب</li>
+              </ul>
+            </div>
+            <div className="flex justify-center items-center">
+              <Image
+                src="/images/tt_1.png"
+                width={400}
+                height={263}
+                alt="none"
+              />
+            </div>
+          </div>
+          <div className="bg-[#E8ECF3] px-[25px] py-[30px] rounded-3xl">
+            <div className="flex justify-center items-center">
+              {" "}
+              <Image
+                src="/images/tt_1.png"
+                width={400}
+                height={263}
+                alt="none"
+              />
+            </div>
+            <p className="text-[#153D8A] font-bold text-[30px]">
+              چهره دیجیتال مارکتینگ
+            </p>
+            <div>
+              <ul className="list-disc text-[#4464A1] px-[50px] py-[25px]">
+                <li>سرویس تبلیغاتی دیجیتال علاقه محور</li>
+                <li>سرویس تبلیغاتی اپلیکیشن های موبایل</li>
+                <li>نرم افزار CRM تحت وب</li>
+                <li>پیاده سازی سرویس های تحت وب</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="mt-[100px] bg-[#153D8A] rounded-3xl text-white py-[30px] mb-20">
+        <div className="flex justify-center items-center">
+          <p className="text-4xl font-bold px-[50px] text-center">
+            چالش هایی که حل آن تخصص ماست
+          </p>
+        </div>
+        <div className="mt-[30px] mx-3 border-white border-2 rounded-2xl py-[30px]">
+          <p className="text-center text-xl font-bold">
+            رقبای ما در دنیای دیجیتال از ما پیشی گرفته اند.
+          </p>
+          <div className="py-[10px] mx-[20px] border-b-2 ">
+            <p className=" rounded-b-3xl">
+              رقابت عنصر اصلی بازاریابی در بازار امروز است. دیجیتال ترنسفورمیشن
+              موضوع اصلی ورود آژانس‌های بازاریابی دیجیتال است. این مهمترین
+              دغدغه‌ای است که با آن، به ما مراجعه می کنند. حل این مساله نیازمند
+              اطلاعات کامل و بسیار از سمت کسب و کار شما و تخصص و مهارت ما در
+              دیجیتال مارکتینگ است؛ طی یک جلسه، همراه هم به راهکاری برای ورود ما
+              و سپس راهکارهای افزایش فروش شما و پیش گرفتن از رقبا رسیده و کار را
+              با هم شروع کنیم.
+            </p>
+          </div>
+          <p className="text-[#F3BC00] mx-[20px]">
+            چند سوال ما را پاسخ دهید؛ تا شروع کنیم
+          </p>
+        </div>
+
+        <div className="mt-[30px] mx-3 border-white border-2 rounded-2xl py-[30px]">
+          <p className="text-center text-xl font-bold">
+            رقبای ما در دنیای دیجیتال از ما پیشی گرفته اند.
+          </p>
+          <div className="py-[10px] mx-[20px] border-b-2 ">
+            <p className=" rounded-b-3xl">
+              رقابت عنصر اصلی بازاریابی در بازار امروز است. دیجیتال ترنسفورمیشن
+              موضوع اصلی ورود آژانس‌های بازاریابی دیجیتال است. این مهمترین
+              دغدغه‌ای است که با آن، به ما مراجعه می کنند. حل این مساله نیازمند
+              اطلاعات کامل و بسیار از سمت کسب و کار شما و تخصص و مهارت ما در
+              دیجیتال مارکتینگ است؛ طی یک جلسه، همراه هم به راهکاری برای ورود ما
+              و سپس راهکارهای افزایش فروش شما و پیش گرفتن از رقبا رسیده و کار را
+              با هم شروع کنیم.
+            </p>
+          </div>
+          <p className="text-[#F3BC00] mx-[20px]">
+            چند سوال ما را پاسخ دهید؛ تا شروع کنیم
+          </p>
+        </div>
+      </div>
+    </div>
   );
 }
