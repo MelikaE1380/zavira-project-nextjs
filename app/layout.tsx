@@ -1,9 +1,16 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import localFont from "next/font/local"; //new
 import "./globals.css";
 
 import Footer from "./components/footer";
 import Header from "./components/header";
+
+const myIrregularFont = localFont({
+  src: "./fonts/IRANSansWeb.woff2", // Adjust path based on your setup
+  variable: "--font-irregular", // Optional: for use with CSS variables
+  display: "swap",
+});
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -26,7 +33,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={myIrregularFont.className}>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
