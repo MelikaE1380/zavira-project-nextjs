@@ -12,7 +12,7 @@ const Header = () => {
   }
 
   return (
-    <header className="fixed top-0 left-0 right-0 flex justify-between items-center py-[10px] px-[10px] gap-[10px] mb-[35px]">
+    <header className="fixed top-0 left-0 bg-linear-to-b from-[#E8ECF3] to-white right-0 flex justify-between items-center py-[10px] px-[10px] gap-[10px] mb-[35px]">
       <div
         onClick={burgerMenu}
         className="bg-[#143B86] flex justify-center items-center p-[8px] rounded-sm lg:hidden"
