@@ -3,7 +3,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#153D8A] text-white">
+    <footer className="bg-main text-white">
       <div className="px-[70px] py-[25px] flex justify-between gap-[3%]">
         <div>
           <span className="font-bold">خدمات راتین</span>

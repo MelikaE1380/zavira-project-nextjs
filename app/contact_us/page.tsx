@@ -5,7 +5,7 @@ const page = () => {
   return (
     <div className="mt-[150px] grid grid-cols-1 items-center md:grid-cols-2 gap-[10%] px-[50px] md:px-[150px] mb-[70px]">
       <div className="flex flex-col gap-[30px]">
-        <p className="text-3xl text-[#143B86]">تماس با ما</p>
+        <p className="text-3xl text-main">تماس با ما</p>
         <p className="text-justify">
           خط ویژه کارشناسان فروش و پشتیبانی با توجه به اختلالات اینترنتی درصورتی
           که برای تماس با شرکت دچار مشکل هستید با شماره های ۰۹۱۲۱۸۲۶۷۴۸ برای
@@ -66,7 +66,7 @@ const page = () => {
           className="w-[70%] md:w-[70%] lg:w-[100%] focus:outline-none border-[3px] border-[rgba(0,0,0,0.1)] rounded-md py-[5px] pr-2"
         />
 
-        <div className="bg-linear-to-bl from-[#143B86] to-[#F2B600] py-[5px] rounded-md">
+        <div className="bg-linear-to-bl from-main to-[#F2B600] py-[5px] rounded-md">
           <p className="text-center">ارسال</p>
         </div>
       </div>

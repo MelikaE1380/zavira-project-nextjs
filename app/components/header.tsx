@@ -15,7 +15,7 @@ const Header = () => {
     <header className="fixed top-0 left-0 bg-linear-to-b from-[#E8ECF3] to-white right-0 flex justify-between items-center py-[10px] px-[10px] gap-[10px] mb-[35px]">
       <div
         onClick={burgerMenu}
-        className="bg-[#143B86] flex justify-center items-center p-[8px] rounded-sm lg:hidden"
+        className="bg-main flex justify-center items-center p-[8px] rounded-sm lg:hidden"
       >
         <Image
           src="/icons/burger-menu-right-svgrepo-com.svg"
@@ -50,8 +50,11 @@ const Header = () => {
         <span>
           <Link href="/blog">وبلاگ</Link>
         </span>
+        <span>
+          <Link href="/hiring">استخدام</Link>
+        </span>
       </div>
-      <div className="bg-[#153D8A] flex justify-center items-center p-[8px] rounded-sm">
+      <div className="bg-main flex justify-center items-center p-[8px] rounded-sm">
         <Image src="/icons/phone.svg" alt="phone Logo" width={20} height={21} />
       </div>
     </header>

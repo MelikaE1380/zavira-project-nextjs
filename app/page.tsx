@@ -107,7 +107,7 @@ export default function Home() {
           <p className="text-[#00A436] font-bold">
             آژانس دیجیتال مارکتینگ راتین
           </p>
-          <p className="text-[#153D8A]">کار را به کاردان بسپارید​</p>
+          <p className="text-main">کار را به کاردان بسپارید​</p>
           <p className="text-[#5B6570]">
             ما در آژانس راتین با تجربه نزدیک به دو دهه فعالیت، تنها یک وظیفه
             برای خود متصور هستیم؛ اینکه خیال شما را از هر نوع خدمات در دایرهٔ
@@ -119,13 +119,13 @@ export default function Home() {
           <div className="flex flex-col gap-4">
             <input
               placeholder="نام و نام خانوادگی خود را وارد نمایید"
-              className="pr-[15px] border-[#153D8A] block border-[2px] px-[5px] py-[8px] focus:outline-0 rounded-3xl"
+              className="pr-[15px] border-main block border-[2px] px-[5px] py-[8px] focus:outline-0 rounded-3xl"
             />{" "}
             <input
               placeholder="شماره موبایل خود را وارد نمایید"
-              className="pr-[15px] border-[#153D8A] border-[2px] px-[5px] py-[8px] focus:outline-0 rounded-3xl"
+              className="pr-[15px] border-main border-[2px] px-[5px] py-[8px] focus:outline-0 rounded-3xl"
             />
-            <div className="py-[10px] flex justify-center items-center bg-[#153D8A] rounded-3xl">
+            <div className="py-[10px] flex justify-center items-center bg-main rounded-3xl">
               <p className="text-white">شروع کنیم</p>
             </div>
           </div>
@@ -249,12 +249,12 @@ export default function Home() {
       </div>
       <div className="mt-[100px]">
         <div className="flex justify-center items-center">
-          <p className="text-[#153D8A] text-2xl font-bold">
+          <p className="text-main text-2xl font-bold">
             اینجا یک آژانس بازاریابی و تبلیغات دیجیتال است ولی با دو چهره
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-[20px] justify-between mt-[25px]">
-          <div className="bg-[#153D8A] px-[25px] py-[30px] rounded-3xl">
+          <div className="bg-main px-[25px] py-[30px] rounded-3xl">
             <p className="text-white font-bold text-[30px]">چهره تکنولوژیک</p>
             <div>
               <ul className="list-disc text-white px-[50px] py-[25px]">
@@ -283,7 +283,7 @@ export default function Home() {
                 alt="none"
               />
             </div>
-            <p className="text-[#153D8A] font-bold text-[30px]">
+            <p className="text-main font-bold text-[30px]">
               چهره دیجیتال مارکتینگ
             </p>
             <div>
@@ -297,7 +297,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="mt-[100px] bg-[#153D8A] rounded-3xl text-white py-[30px] mb-20">
+      <div className="mt-[100px] bg-main rounded-3xl text-white py-[30px] mb-20">
         <div className="flex justify-center items-center">
           <p className="text-4xl font-bold px-[50px] text-center">
             چالش هایی که حل آن تخصص ماست
