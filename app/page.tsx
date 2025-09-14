@@ -102,19 +102,18 @@ export default function Home() {
     // </div>
 
     <div className="px-[20px] md:px-[50px]  lg:px-[80px] xl:px-[130px] 2xl:px-[160px] mt-[120px]">
-      <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-2 mt-[50px]">
+      <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-2 mt-[180px]">
         <div className="md:w-[50%] flex justify-center flex-col gap-2">
           <p className="text-[#00A436] font-bold">
-            آژانس دیجیتال مارکتینگ راتین
+            آژانس دیجیتال مارکتینگ زویرا
           </p>
           <p className="text-main">کار را به کاردان بسپارید​</p>
           <p className="text-[#5B6570]">
-            ما در آژانس راتین با تجربه نزدیک به دو دهه فعالیت، تنها یک وظیفه
+            ما در آژانس زویرا با تجربه نزدیک به دو دهه فعالیت، تنها یک وظیفه
             برای خود متصور هستیم؛ اینکه خیال شما را از هر نوع خدمات در دایرهٔ
-            دیجیتال مارکتینگ راحت کنیم. راتین نقطهٔ اشتراک بین بازاریابی و
+            دیجیتال مارکتینگ راحت کنیم. زویرا نقطهٔ اشتراک بین بازاریابی و
             تبلیغات با تکنولوژی و هنر است، جایی که افزایش فروش شما را هدف خواهد
-            گرفت. ما از سال ۸۷ تا به امروز تمرین کرده‌ایم، تا مستقیم به هدف
-            بزنیم.
+            گرفت.
           </p>
           <div className="flex flex-col gap-4">
             <input
@@ -150,7 +149,7 @@ export default function Home() {
               alt="coding"
             />
           </div>
-          <p>چرا با خیال راحت به آژانس دیجیتال مارکتینگ راتین اعتماد کنیم؟</p>
+          <p>چرا با خیال راحت به آژانس دیجیتال مارکتینگ زویرا اعتماد کنیم؟</p>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla
             diam in ac dictum a urna viverra morbi.
@@ -165,7 +164,7 @@ export default function Home() {
               alt="coding"
             />
           </div>
-          <p>چرا با خیال راحت به آژانس دیجیتال مارکتینگ راتین اعتماد کنیم؟</p>
+          <p>چرا با خیال راحت به آژانس دیجیتال مارکتینگ زویرا اعتماد کنیم؟</p>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla
             diam in ac dictum a urna viverra morbi.
@@ -180,7 +179,7 @@ export default function Home() {
               alt="coding"
             />
           </div>
-          <p>چرا با خیال راحت به آژانس دیجیتال مارکتینگ راتین اعتماد کنیم؟</p>
+          <p>چرا با خیال راحت به آژانس دیجیتال مارکتینگ زویرا اعتماد کنیم؟</p>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla
             diam in ac dictum a urna viverra morbi.
@@ -195,7 +194,7 @@ export default function Home() {
               alt="coding"
             />
           </div>
-          <p>چرا با خیال راحت به آژانس دیجیتال مارکتینگ راتین اعتماد کنیم؟</p>
+          <p>چرا با خیال راحت به آژانس دیجیتال مارکتینگ زویرا اعتماد کنیم؟</p>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla
             diam in ac dictum a urna viverra morbi.
@@ -210,7 +209,7 @@ export default function Home() {
               alt="coding"
             />
           </div>
-          <p>چرا با خیال راحت به آژانس دیجیتال مارکتینگ راتین اعتماد کنیم؟</p>
+          <p>چرا با خیال راحت به آژانس دیجیتال مارکتینگ زویرا اعتماد کنیم؟</p>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla
             diam in ac dictum a urna viverra morbi.
@@ -225,7 +224,7 @@ export default function Home() {
               alt="coding"
             />
           </div>
-          <p>چرا با خیال راحت به آژانس دیجیتال مارکتینگ راتین اعتماد کنیم؟</p>
+          <p>چرا با خیال راحت به آژانس دیجیتال مارکتینگ زویرا اعتماد کنیم؟</p>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla
             diam in ac dictum a urna viverra morbi.
@@ -240,7 +239,7 @@ export default function Home() {
               alt="coding"
             />
           </div>
-          <p>چرا با خیال راحت به آژانس دیجیتال مارکتینگ راتین اعتماد کنیم؟</p>
+          <p>چرا با خیال راحت به آژانس دیجیتال مارکتینگ زویرا اعتماد کنیم؟</p>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla
             diam in ac dictum a urna viverra morbi.

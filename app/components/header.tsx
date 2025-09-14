@@ -30,9 +30,9 @@ const Header = () => {
       <div className="flex flex-col items-center">
         <Image
           className="w-[50%]"
-          src="/icons/Ratin.svg"
-          width={214}
-          height={20}
+          src="/images/zavira.jpg"
+          width={70}
+          height={70}
           alt="Company Logo"
         />
         <p className="text-center lg:hidden">آژانس دیجیتال مارکتینگ زویرا</p>

@@ -4,31 +4,49 @@ import React from "react";
 const Footer = () => {
   return (
     <footer className="bg-main text-white">
-      <div className="px-[70px] py-[25px] flex justify-between gap-[3%]">
-        <div>
-          <span className="font-bold">خدمات راتین</span>
-        </div>
-        <div>
-          <span className="font-bold">خدمات راتین</span>
-        </div>
-        <div>
-          <span className="font-bold">خدمات راتین</span>
-        </div>
-        <div>
-          <span className="font-bold">خدمات راتین</span>
+      <div className="flex px-[25px] py-[25px]">
+        <div className="grid justify-center items-center md:grid-cols-2 lg:grid-cols-4 gap-[25px]">
+          <div>
+            <span className="font-bold">خدمات زویرا</span>
+            <p className="text-justify">
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ متن
+              ساختگی با تولید سادگی نامفهوممتن ساختگی با تولید سادگی نامفهوم
+            </p>
+          </div>
+          <div>
+            <span className="font-bold">خدمات زویرا</span>
+            <p className="text-justify">
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ متن
+              ساختگی با تولید سادگی نامفهوممتن ساختگی با تولید سادگی نامفهوم
+            </p>{" "}
+          </div>
+          <div>
+            <span className="font-bold">خدمات زویرا</span>
+            <p className="text-justify">
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ متن
+              ساختگی با تولید سادگی نامفهوممتن ساختگی با تولید سادگی نامفهوم
+            </p>{" "}
+          </div>
+          <div>
+            <span className="font-bold">خدمات زویرا</span>
+            <p className="text-justify">
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ متن
+              ساختگی با تولید سادگی نامفهوممتن ساختگی با تولید سادگی نامفهوم
+            </p>{" "}
+          </div>
         </div>
         <div>
           <Image
             src="/images/logo.aspx_.png"
             alt="enamad"
-            width={120}
-            height={120}
+            width={400}
+            height={400}
           />
         </div>
       </div>
-      <div className="py-[25px] flex justify-between items-center px-[50px] border-t-[3px] border-[rgba(255,255,255,0.1)]">
+      <div className="py-[25px] grid grid-cols-1 md:flex justify-between items-center px-[50px] border-t-[3px] border-[rgba(255,255,255,0.1)]">
         <p>
-          کلیه حقوق مادی و معنوی برای آژانس دیجیتال مارکتینگ راتین محفوظ است.
+          کلیه حقوق مادی و معنوی برای آژانس دیجیتال مارکتینگ زویرا محفوظ است.
         </p>
         <div className="flex ">
           <div className="flex justify-center items-center">
