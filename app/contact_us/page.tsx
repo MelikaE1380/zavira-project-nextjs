@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-const page = () => {
+const Page = () => {
   return (
     <div className="mt-[150px] grid grid-cols-1 items-center md:grid-cols-2 gap-[10%] px-[50px] md:px-[150px] mb-[70px]">
       <div className="flex flex-col gap-[30px]">
@@ -74,4 +74,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

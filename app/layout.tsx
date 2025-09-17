@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import localFont from "next/font/local"; //new
+import localFont from "next/font/local";
 import "./globals.css";
 
 import Footer from "./components/footer";
 import Header from "./components/header";
 
 const myIrregularFont = localFont({
-  src: "./fonts/IRANSansWeb.woff2", // Adjust path based on your setup
-  variable: "--font-irregular", // Optional: for use with CSS variables
+  src: "./fonts/IRANSansWeb.woff2",
+  variable: "--font-irregular",
   display: "swap",
 });
 
@@ -35,11 +35,10 @@ export default function RootLayout({
   return (
     <html lang="en" className={myIrregularFont.className}>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col min-h-screen`}
       >
         <Header />
-
-        {children}
+        <main className="flex-1">{children}</main>
         <Footer />
       </body>
     </html>
