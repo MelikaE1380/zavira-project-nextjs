@@ -58,13 +58,19 @@ const Page = () => {
           placeholder="ایمیل"
           className="w-[70%] md:w-[70%] lg:w-[100%] focus:outline-none border-[3px] border-[rgba(0,0,0,0.1)] rounded-md py-[5px] pr-2"
         />
-        <input
+        {/* <input
           type="text"
           name="message"
           id="message"
           placeholder="نظر"
           className="w-[70%] md:w-[70%] lg:w-[100%] focus:outline-none border-[3px] border-[rgba(0,0,0,0.1)] rounded-md py-[5px] pr-2"
-        />
+        /> */}
+        <textarea
+          rows={5}
+          name="message"
+          id="message"
+          className="w-[70%] md:w-[70%] lg:w-[100%] focus:outline-none border-[3px] border-[rgba(0,0,0,0.1)] rounded-md py-[5px] pr-2"
+        ></textarea>
 
         <div className="bg-linear-to-bl from-main to-[#F2B600] py-[5px] rounded-md">
           <p className="text-center">ارسال</p>
